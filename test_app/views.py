@@ -7,7 +7,7 @@ from test_app.database.models import OrderData
 
 class TestDataView(Resource):
     """
-    Загружаем данные в БД
+    Отдаем данные на страницу приложения
     """
     def get(self):
         info = sess.query(OrderData).all()
