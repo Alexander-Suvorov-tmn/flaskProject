@@ -17,8 +17,8 @@ CREATE DATABASE datatest;
 CREATE USER testt WITH password 'testt';
 GRANT ALL ON DATABASE test_database TO testt;
 ```
-2. Скопировать репозиторий при помощи команды ```git clone https://github.com/Alexander-Suvorov-tmn/example-test.git```
-3. перейти в рабочию директорию, выполнив команду ``` cd example-test```
+2. Скопировать репозиторий при помощи команды ```git clone https://github.com/Alexander-Suvorov-tmn/flaskProject.git```
+3. перейти в рабочию директорию, выполнив команду ``` cd flaskProject```
 4. В корне проекта создать файл ```.env``` в котором записать:
 ```
 DB="postgresql+psycopg2://testt:testt@localhost:5432/datatest"
